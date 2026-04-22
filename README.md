@@ -1,18 +1,38 @@
-# React + Vite
+**Feedback Tracker**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Feedback Tracker**! This is a simple, beautiful, and fully functional full-stack application designed to collect, manage, and track user feedback seamlessly. It features a modern frontend built with React and Tailwind CSS, backed by a fast Express and SQLite backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**1. Submit Feedback:** Users can easily submit their thoughts along with their name and email.
+**2. Smart Search & Filtering:** Quickly find specific feedback using text search or filter them by date.
+**3. Manage Entries:** Easily delete feedback when it is no longer needed.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Frontend:** React, Vite, Tailwind CSS, React Icons
+- **Backend:** Node.js, Express.js
+- **Database:** SQLite 
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Pragya5101/Feedback-Tracker.git
+cd test
+```
+### 2. Install dependencies
+Make sure you have Node.js installed, then run:
+```bash
+npm install
+```
+### 3. Run the app
+Start both the frontend and backend servers with a single command:
+```bash
+npm run dev
+```
+The app will be available in your browser. The backend API runs quietly in the background on `http://localhost:3001`.
+
